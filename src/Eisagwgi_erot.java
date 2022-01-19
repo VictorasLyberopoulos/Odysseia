@@ -1,4 +1,3 @@
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -17,25 +16,25 @@ public class Eisagwgi_erot {
 
 	public static void display_menu() {
 		System.out.println("");
-		System.out.println("0. για Έξοδο ");
-		System.out.println("1. για εισαγωγή νέας ερώτησης ");
-		System.out.println("2. για εκτύπωση ερωτήσεων στην οθόνη ");
-		System.out.println("Παρακαλώ επιλέξτε : ");
+		System.out.println("0. Γ£Γ©Γ΅ ΒΈΓ®Γ―Γ¤Γ― ");
+		System.out.println("1. Γ£Γ©Γ΅ Γ¥Γ©Γ³Γ΅Γ£ΓΉΓ£Γ Γ­ΓΓ΅Γ² Γ¥Γ±ΓΎΓ΄Γ§Γ³Γ§Γ² ");
+		System.out.println("2. Γ£Γ©Γ΅ Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§ Γ¥Γ±ΓΉΓ΄ΓΓ³Γ¥ΓΉΓ­ Γ³Γ΄Γ§Γ­ Γ―Γ¨ΓΌΓ­Γ§ ");
+		System.out.println("ΓΓ΅Γ±Γ΅ΓªΓ΅Γ«ΓΎ Γ¥Γ°Γ©Γ«ΓΓ®Γ΄Γ¥ : ");
 
 	}
 
 	public static void display_menu_erotisewn() {
 		System.out.println("");
-		System.out.println("1. για εκτύπωση ερωτήσεων επιπέδου 1");
-		System.out.println("2. για εκτύπωση ερωτήσεων επιπέδου 2");
-		System.out.println("3. για εκτύπωση ερωτήσεων επιπέδου 3");
-		System.out.println("4. για εκτύπωση ερωτήσεων όλων των επιπέδων... ");
-		System.out.println("Παρακαλώ επιλέξτε : ");
+		System.out.println("1. Γ£Γ©Γ΅ Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§ Γ¥Γ±ΓΉΓ΄ΓΓ³Γ¥ΓΉΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ 1");
+		System.out.println("2. Γ£Γ©Γ΅ Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§ Γ¥Γ±ΓΉΓ΄ΓΓ³Γ¥ΓΉΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ 2");
+		System.out.println("3. Γ£Γ©Γ΅ Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§ Γ¥Γ±ΓΉΓ΄ΓΓ³Γ¥ΓΉΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ 3");
+		System.out.println("4. Γ£Γ©Γ΅ Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§ Γ¥Γ±ΓΉΓ΄ΓΓ³Γ¥ΓΉΓ­ ΓΌΓ«ΓΉΓ­ Γ΄ΓΉΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­... ");
+		System.out.println("ΓΓ΅Γ±Γ΅ΓªΓ΅Γ«ΓΎ Γ¥Γ°Γ©Γ«ΓΓ®Γ΄Γ¥ : ");
 	}
 
 	public static void printlevel1() {
 		int arerwt = 0;
-		System.out.println("Επίπεδο 1 ");
+		System.out.println("Γ…Γ°ΓΓ°Γ¥Γ¤Γ― 1 ");
 		System.out.println("--------- ");
 		for (int i = 0; i < epipedo1.size(); i++) {
 			arerwt++;
@@ -46,7 +45,7 @@ public class Eisagwgi_erot {
 
 	public static void printlevel2() {
 		int arerwt = 0;
-		System.out.println("Επίπεδο 2 ");
+		System.out.println("Γ…Γ°ΓΓ°Γ¥Γ¤Γ― 2 ");
 		System.out.println("--------- ");
 		for (int i = 0; i < epipedo2.size(); i++) {
 			arerwt++;
@@ -58,7 +57,7 @@ public class Eisagwgi_erot {
 
 	public static void printlevel3() {
 		int arerwt = 0;
-		System.out.println("Επίπεδο 3 ");
+		System.out.println("Γ…Γ°ΓΓ°Γ¥Γ¤Γ― 3 ");
 		System.out.println("--------- ");
 		for (int i = 0; i < epipedo3.size(); i++) {
 			arerwt++;
@@ -68,21 +67,21 @@ public class Eisagwgi_erot {
 	}
 
 	public static void kataxorisi_erotisi() {
-		System.out.println("Δώσε την καινούγρια ερώτηση");
+		System.out.println("Γ„ΓΎΓ³Γ¥ Γ΄Γ§Γ­ ΓªΓ΅Γ©Γ­Γ―Γ½Γ£Γ±Γ©Γ΅ Γ¥Γ±ΓΎΓ΄Γ§Γ³Γ§");
 		String erotisi = s.nextLine();
 		String[] pin_apant = new String[4];
-		System.out.println("Δώσε την πιθανή απάντηση 1 ");
+		System.out.println("Γ„ΓΎΓ³Γ¥ Γ΄Γ§Γ­ Γ°Γ©Γ¨Γ΅Γ­Γ Γ΅Γ°ΓΓ­Γ΄Γ§Γ³Γ§ 1 ");
 		pin_apant[0] = s.nextLine();
-		System.out.println("Δώσε την πιθανή απάντηση 2 ");
+		System.out.println("Γ„ΓΎΓ³Γ¥ Γ΄Γ§Γ­ Γ°Γ©Γ¨Γ΅Γ­Γ Γ΅Γ°ΓΓ­Γ΄Γ§Γ³Γ§ 2 ");
 		pin_apant[1] = s.nextLine();
-		System.out.println("Δώσε την πιθανή απάντηση 3 ");
+		System.out.println("Γ„ΓΎΓ³Γ¥ Γ΄Γ§Γ­ Γ°Γ©Γ¨Γ΅Γ­Γ Γ΅Γ°ΓΓ­Γ΄Γ§Γ³Γ§ 3 ");
 		pin_apant[2] = s.nextLine();
-		System.out.println("Δώσε την πιθανή απάντηση 4 ");
+		System.out.println("Γ„ΓΎΓ³Γ¥ Γ΄Γ§Γ­ Γ°Γ©Γ¨Γ΅Γ­Γ Γ΅Γ°ΓΓ­Γ΄Γ§Γ³Γ§ 4 ");
 		pin_apant[3] = s.nextLine();
-		System.out.println("Ποιά απο τις τέσσερις είναι η σωστή απάντηση ");
+		System.out.println("ΓΓ―Γ©Γ Γ΅Γ°Γ― Γ΄Γ©Γ² Γ΄ΓΓ³Γ³Γ¥Γ±Γ©Γ² Γ¥ΓΓ­Γ΅Γ© Γ§ Γ³ΓΉΓ³Γ΄Γ Γ΅Γ°ΓΓ­Γ΄Γ§Γ³Γ§ ");
 		int sosti_apant = s.nextInt();
 		s.nextLine();
-		System.out.println("Ποιανού επίπεδου είναι η ερώτηση αυτή ? ");
+		System.out.println("ΓΓ―Γ©Γ΅Γ­Γ―Γ½ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ―Γµ Γ¥ΓΓ­Γ΅Γ© Γ§ Γ¥Γ±ΓΎΓ΄Γ§Γ³Γ§ Γ΅ΓµΓ΄Γ ? ");
 		int epipedo = s.nextInt();
 		s.nextLine();
 		Erotisi er = new Erotisi(erotisi, pin_apant, sosti_apant - 1, epipedo);
@@ -129,11 +128,10 @@ public class Eisagwgi_erot {
 			ioe.printStackTrace();
 		}
 	}
-	
-	
+		
 	public static void load_files() {
 		File tempFile = new File("epipedo1.ser");
-		if(tempFile.exists()) {//αν υπαρχουν τα αποθηκεθμενα αρχεια
+		if(tempFile.exists()) {//Γ΅Γ­ ΓµΓ°Γ΅Γ±Γ·Γ―ΓµΓ­ Γ΄Γ΅ Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥Γ¨Γ¬Γ¥Γ­Γ΅ Γ΅Γ±Γ·Γ¥Γ©Γ΅
 			try {
 				FileInputStream stream1= new FileInputStream("epipedo1.ser");
 				ObjectInputStream in1=new ObjectInputStream(stream1);
@@ -188,9 +186,9 @@ public class Eisagwgi_erot {
 			epilogi1 = s.nextInt();
 			s.nextLine();
 			if (epilogi1 == 0) {
-				System.out.println("Το πρόγραμμα κλίνει. ");
+				System.out.println("Γ”Γ― Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ ΓªΓ«ΓΓ­Γ¥Γ©. ");
 				save_files();
-				System.out.println("Οι ερωτήσεις αποθηκεύτηκαν σε αρχεία (3) ενα για κάθε επίπεδο.");
+				System.out.println("ΓΓ© Γ¥Γ±ΓΉΓ΄ΓΓ³Γ¥Γ©Γ² Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥Γ½Γ΄Γ§ΓªΓ΅Γ­ Γ³Γ¥ Γ΅Γ±Γ·Γ¥ΓΓ΅ (3) Γ¥Γ­Γ΅ Γ£Γ©Γ΅ ΓªΓΓ¨Γ¥ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ―.");
 			} else if (epilogi1 == 1) {
 				kataxorisi_erotisi();
 			} else if (epilogi1 == 2) {
@@ -212,11 +210,11 @@ public class Eisagwgi_erot {
 						printlevel3();
 
 					} else {
-						System.out.println("Λάθος επιλογή ξαναεπιλέξτε");
+						System.out.println("Γ‹ΓΓ¨Γ―Γ² Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ®Γ΅Γ­Γ΅Γ¥Γ°Γ©Γ«ΓΓ®Γ΄Γ¥");
 					}
 				} while (epilogi2 < 1 || epilogi2 > 4);
 			} else {
-				System.out.println("Λάθος επιλογή ξαναεπιλέξτε");
+				System.out.println("Γ‹ΓΓ¨Γ―Γ² Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ®Γ΅Γ­Γ΅Γ¥Γ°Γ©Γ«ΓΓ®Γ΄Γ¥");
 			}
 
 		} while (epilogi1 != 0);
