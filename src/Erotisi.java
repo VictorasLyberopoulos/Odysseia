@@ -55,7 +55,4 @@ public class Erotisi implements Serializable{
 		System.out.println(toString());
 	}
 	
-	
-	
-
 }
