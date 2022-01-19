@@ -133,7 +133,8 @@ public class Eisagwgi_erot {
 	
 	public static void load_files() {
 		File tempFile = new File("epipedo1.ser");
-		if(tempFile.exists()) {//αν υπαρχουν τα αποθηκεθμενα αρχεια
+		
+		if(tempFile.exists()==true) {//αν υπαρχουν τα αποθηκεθμενα αρχεια
 			try {
 				FileInputStream stream1= new FileInputStream("epipedo1.ser");
 				ObjectInputStream in1=new ObjectInputStream(stream1);
